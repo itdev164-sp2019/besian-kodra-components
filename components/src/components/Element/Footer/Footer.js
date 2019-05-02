@@ -1,14 +1,16 @@
 // @flow
-import React from 'react'
-import PropTypes from 'prop-types'
-import { BaseContainer } from '../BaseContainer'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { BaseContainer } from '../BaseContainer';
 
 type Props = {
-    children: PropTypes.node
-}
+  children: PropTypes.node
+};
 
-export const Footer = (props: Props) => <BaseContainer as="footer" {...props} />
+export const Footer = (props: PropTypes.node) => (
+  <BaseContainer as='footer' {...props} />
+);
 
 Footer.propTypes = {
-    children: PropTypes.node.isRequired
-}
+  children: PropTypes.node.isRequired
+};

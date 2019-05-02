@@ -1,5 +1,16 @@
 // @flow
-import React from 'react'
-import { BaseContainer } from '../BaseContainer'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { BaseContainer } from '../BaseContainer';
 
-export const Section = props => <BaseContainer as="section" {...props} />
+type Props = {
+  children: PropTypes.node
+};
+
+export const Section = (props: PropTypes.node) => (
+  <BaseContainer as='section' {...props} />
+);
+
+Section.propTypes = {
+  children: PropTypes.node.isRequired
+};

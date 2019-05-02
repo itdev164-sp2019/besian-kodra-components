@@ -2,9 +2,15 @@ import React from 'react';
 import mastheadImage from './Images/styled-components.png';
 import { Menu, Search } from 'styled-icons/feather';
 import { darken } from 'polished';
+import shareFacebook from './Images/share_facebook.png';
+import shareMore from './Images/share_more.png';
+import shareTwitter from './Images/share_twitter.png';
 
 const images = {
-  mastheadImage
+  mastheadImage,
+  shareFacebook,
+  shareMore,
+  shareTwitter
 };
 
 const breakpoints = [576, 768, 900];
@@ -85,6 +91,12 @@ const defaults = {
   },
   text: {
     lineHeight: theme.lineHeights.copy
+  },
+  socialShareButton: {
+    img: {
+      width: '100px',
+      height: 'auto'
+    }
   }
 };
 
