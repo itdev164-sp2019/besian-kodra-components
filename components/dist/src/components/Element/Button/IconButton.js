@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.IconButton = undefined;
 
 var _templateObject = _taggedTemplateLiteral(['\n  ', ';\n'], ['\n  ', ';\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  \n'], ['\n  \n']);
+    _templateObject2 = _taggedTemplateLiteral(['\n  // We could add styles here, but it is not necessary.\n  // The main reason this is a styled component is to wrap the styled icon passed in as a prop.\n'], ['\n  // We could add styles here, but it is not necessary.\n  // The main reason this is a styled component is to wrap the styled icon passed in as a prop.\n']);
 
 var _react = require('react');
 

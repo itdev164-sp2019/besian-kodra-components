@@ -1,11 +1,11 @@
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 exports.ButtonBase = undefined;
 
-var _templateObject = _taggedTemplateLiteral(['\nbackground: none;\nbox-shadow: none;\nfont-weight: normal;\nborder-radius: 0;\ncursor: pointer;\n'], ['\nbackground: none;\nbox-shadow: none;\nfont-weight: normal;\nborder-radius: 0;\ncursor: pointer;\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  background: none;\n  box-shadow: none;\n  font-weight: normal;\n  border-radius: 0;\n  cursor: pointer;\n'], ['\n  background: none;\n  box-shadow: none;\n  font-weight: normal;\n  border-radius: 0;\n  cursor: pointer;\n']);
 
 var _react = require('react');
 
@@ -30,19 +30,19 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 var Reset = (0, _styledComponents2.default)(_rebass.Button)(_templateObject);
 
 var ButtonBase = function ButtonBase(_ref) {
-    var children = _ref.children,
-        props = _objectWithoutProperties(_ref, ['children']);
+  var children = _ref.children,
+      props = _objectWithoutProperties(_ref, ['children']);
 
-    return _react2.default.createElement(
-        Reset,
-        props,
-        children
-    );
+  return _react2.default.createElement(
+    Reset,
+    props,
+    children
+  );
 };
 
 exports.ButtonBase = ButtonBase;
 _rebass.Button.propTypes = {
-    children: _propTypes2.default.node.isRequired
+  children: _propTypes2.default.node.isRequired
 };
 
 //# sourceMappingURL=ButtonBase.js.map

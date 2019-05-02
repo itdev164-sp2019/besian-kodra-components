@@ -1,4 +1,3 @@
-// @flow
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { ThemeConsumer } from 'styled-components';
